@@ -14,7 +14,7 @@ gsap.to(".nav", {
   scrollTrigger: {
     trigger: ".nav",
     scroller: "body",
-    markers: true,
+    // markers: true,
     start: "top -10%",
     end: "top -11%",
     scrub: 1,
@@ -53,7 +53,7 @@ gsap.from(".card", {
   scrollTrigger: {
     trigger: ".card",
     scroller: "body",
-    markers: true,
+    // markers: true,
     start: "top 70%",
     end: "top 65%",
     scrub: 1,
