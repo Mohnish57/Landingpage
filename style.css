@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   color: white;
+  cursor: none;
 }
 *::selection {
   background-color: white;
@@ -25,7 +26,7 @@ body {
   gap: 1.5rem;
   position: fixed;
   padding: 0 1rem;
-  z-index: 99;
+  z-index: 11;
 }
 .nav img {
   height: 2.5vw;
@@ -36,7 +37,7 @@ body {
   font-weight: 600;
 }
 .nav h4:hover {
-  color: black;
+  color: #904fff;
   font-weight: 600;
 }
 #cursor {
